@@ -1,13 +1,22 @@
 body{
-				background-color: #17ffbb;
+				background-color:#919191;
 				}
 #judul{
-				background: #63ff00;
-				color: #fffb00;
-				text: center;
+				background:#000000;
+				color:#ffffff;
+				text-align: center;
 				}
-.media{
-				background: #4cff00;
+#index_isi{
+				text-align: justify;
+				}
+#index_menu{
 				display: inline-block;
-				padding: center;
+				background-color:#006bff;
+				text-decoration:none;
+				color:white;
+				outline: solid 2px;
+				padding: 5px 5px;
+				}
+.index_label{
+				
 				}
