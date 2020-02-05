@@ -6,6 +6,9 @@ body{
 				color:#ffffff;
 				text-align: center;
 				}
+.media{
+				text-align: center;
+				}
 #index_isi{
 				text-align: justify;
 				}
@@ -16,7 +19,13 @@ body{
 				color:white;
 				outline: solid 2px;
 				padding: 5px 5px;
+				margin-top: 10px;
 				}
 .index_label{
-				display: block; text-align: center;
+				text-align: center;
+				display: block;
+				}
+.media{
+				display: block;
+				margin: 0 auto 0 auto;
 				}
