@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Halaman Tes</title>
-<link rel="stylesheet" href="style.css">
+<title>Randomizer</title>
 </head>
 <body>
-<h1 id="judul">Rio Si vvibu Nolep</h1>
-<p id="index_isi">Rio Kana Hau adalah seorang vvibu yang sangat nolep dari judul kita sudah bisa mengetahui betapa vvibunya dia.</p>
-<label class="index_label"> gambar kaki saya</label>
-<img class="media" src="image.jpg" height="100%" width="100%">
-<label class="index_label">lagu ena</label>
-<audio controls autoplay class="media" src="Audio.mp3" width="100%"></audio>
-  <label class="index_label">video si vvibu nolep</label>
-<video class="media" controls src="videowibunolep.mp4" height="100%" width="100%"></video>
-<a href="2.html" id="index_menu">Halaman 2</a>
+
+<h1>Randomizer</h1>
+<input type="number" id="min"> - <input type="number" id="max">
+<button id="submit" onclick="fungsi()">Randomize</button>
+
+<p id="output" value></p>
+
+
+<script>
+function fungsi(){
+			window.a=parseInt(document.getElementById('min').value);
+			window.b=parseInt(document.getElementById('max').value);
+				document.getElementById("output").innerHTML=Math.floor(Math.random()*(b-a+1))+a;
+				}
+</script>
 </body>
 </html>
